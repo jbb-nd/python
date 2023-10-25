@@ -11,7 +11,7 @@ s = np.array([0, 1, 2, 3, 4, 5])
 x = 2**s
 y2 = 2*x
 y3 = 3*x
-plt.hold(True) # keep adding plots to axes
+#plt.hold(True) # keep adding plots to axes
 plt.plot(x, y2, '-o')
 plt.plot(x, y3, '-o')
 plt.xscale('log', basex=2)
@@ -23,4 +23,4 @@ plt.ylabel('y-axis')
 plt.title('Example Plot')
 plt.savefig('myplot.png') # also pdf, eps, ps, and svg formats
 plt.show() # opens a window and shows plot
-plt.hold(False)
+#plt.hold(False)
